@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <b>Ваше имя:</b><br />
+      <input id="name" class="noBorder" type="text" size="40" />
+    </p>
+    <p id="mistace" class="attention">Вы не ввели ваше имя</p>
+    <p>
+      <b>Ваш возраст:</b><br />
+      <input id="age" type="text" size="40" />
+    </p>
+    <p>
+      <b>Число.месяц.год вашего рождения:</b><br />
+      <input id="date" type="text" size="40" />
+    </p>
+    <p>
+      <b>Ваше образование:</b><br />
+      <select id="education">
+        <option value="initial">Начальное</option>
+        <br />
+        <option value="general">Среднее (общее)</option>
+        <br />
+        <option value="professional">Среднее (профессиональное)</option>
+        <br />
+        <option value="higher">Высшее</option>
+      </select>
+      <br />
+    </p>
+    <p>
+      <b>Ваш пол:</b><br />
+      <input id="man" type="radio" name="question" value="man" />Мужчина<br />
+      <input id="woman" type="radio" name="question" value="woman"
+      />Женщина<br />
+      <button id="btn">Отправить</button>
+    
+    </p>
+    <div id ="window" class="windowClass">
+        <p id="mnemonic">&#8855</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
